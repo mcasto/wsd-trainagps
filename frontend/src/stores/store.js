@@ -17,6 +17,7 @@ export const useStore = defineStore(
 
     const state = {
       registrations: ref(null),
+      token: ref("test"),
     };
     const getters = {};
     const actions = {};
